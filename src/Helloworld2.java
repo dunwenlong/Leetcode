@@ -5,7 +5,7 @@ import java.util.Stack;
 /**
  * @author Dun
  */
-public class Helloworld {
+public class Helloworld2 {
     public static void main(String[] args){
         System.out.println(cuttingRope(127));
     }
