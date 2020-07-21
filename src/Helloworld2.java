@@ -1,3 +1,4 @@
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Stack;
@@ -96,6 +97,17 @@ public class Helloworld2 {
 
         public int min() {
             return minStack.peek();
+        }
+    }
+    private class myComparator implements Comparator<int[]> {
+
+        @Override
+        public int compare(int[] o1, int[] o2) {
+            if(o1[0]==o2[0]){
+                return o2[1]-o1[1];
+            } else{
+                return o1[0]-o2[0];
+            }
         }
     }
 }
