@@ -37,7 +37,7 @@ public class Quicksort {
         return i-1;
     }
     public static void main(String[] args) {
-        int[] test = {1, 2, 3, 4, 4, 5};
+        int[] test = {1, 1, 1, 1, 1, 1};
         Quicksort quicksort = new Quicksort();
         quicksort.quicksort(test);
         for (int num : test) {
