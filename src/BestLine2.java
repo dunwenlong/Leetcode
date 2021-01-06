@@ -3,8 +3,8 @@
  * @date 2020/6/12
  */
 
-import org.jetbrains.annotations.Contract;
-import org.jetbrains.annotations.NotNull;
+//import org.jetbrains.annotations.Contract;
+//import org.jetbrains.annotations.NotNull;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -56,7 +56,7 @@ public class BestLine2 {
         return new int[]{A, B};
     }
 
-    public int[] bestLine(int[] @NotNull [] points) {
+    public int[] bestLine(int[][] points) {
         int maxCount = 0;
         int[] res = new int[2];
         int lenPoints = points.length;
